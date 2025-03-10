@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Github, Instagram, Disc as Discord } from 'lucide-react';
@@ -165,7 +164,7 @@ function Home() {
                 <span>@learnneural</span>
               </motion.a>
               <motion.a 
-                href="https://discord.gg/learnneural" 
+                href="https://discord.gg/devlopers" 
                 className="flex items-center justify-center gap-2 text-indigo-400 hover:text-indigo-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -188,7 +187,7 @@ function Home() {
             {[
               { href: "https://github.com/learnneural", icon: Github },
               { href: "https://instagram.com/learnneural", icon: Instagram },
-              { href: "https://discord.gg/learnneural", icon: Discord }
+              { href: "https://discord.gg/devlopers", icon: Discord }
             ].map((social, index) => (
               <motion.a
                 key={social.href}
